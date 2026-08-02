@@ -134,6 +134,3 @@ server/                  Backend (Express)
 - Real file storage for receipts and profile photos
 - Persist notification and theme preferences
 
-## License
-
-MIT
