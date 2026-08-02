@@ -134,3 +134,11 @@ server/                  Backend (Express)
 - Real file storage for receipts and profile photos
 - Persist notification and theme preferences
 
+#OUTPUT
+<img width="1920" height="1080" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/8fdf2a84-8066-4c0e-9ec5-2b49fa5742ba" />
+<img width="1920" height="1080" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/4461b336-59a7-4864-95e8-0dbea91e5a29" />
+<img width="1920" height="1080" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/0a55070d-4e06-4239-a12b-52e245c3b483" />
+<img width="1920" height="1080" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/064c3a8a-e491-4904-8b49-b74e32612a52" />
+<img width="1920" height="1080" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/30bf151a-4c3d-46db-b92d-002bea703607" />
+<img width="1920" height="1080" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/576d47b2-9312-4c7c-a32c-dc4f96563ea8" />
+
