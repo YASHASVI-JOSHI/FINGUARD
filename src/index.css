@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #07111F;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* thin scrollbars to match the premium dark aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+::-webkit-scrollbar-thumb {
+  background: #16283D;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1e3a56;
+}
+
+/* visible keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid #38BDF8;
+  outline-offset: 2px;
+}
+
+@layer components {
+  .auth-input {
+    @apply w-full rounded-lg border border-white/10 bg-card px-3.5 py-2.5 text-sm text-text placeholder:text-muted/60 outline-none transition-colors focus:border-accent;
+  }
+  .auth-submit {
+    @apply flex w-full items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-text transition-colors hover:bg-blue-500 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .filter-select {
+    @apply rounded-lg border border-white/10 bg-card px-3 py-2.5 text-sm text-text outline-none focus:border-accent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
