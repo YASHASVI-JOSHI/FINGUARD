@@ -2,7 +2,7 @@
 
 **FinGuard** is an AI-powered personal finance platform — track spending, manage budgets, and get AI-driven insights on your credit, loan eligibility, investments, and fraud risk, all in one dark, premium dashboard.
 
-![FinGuard](https://img.shields.io/badge/status-in--development-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![FinGuard](https://img.shields.io/badge/status-in--development-blue) 
 
 ---
 
